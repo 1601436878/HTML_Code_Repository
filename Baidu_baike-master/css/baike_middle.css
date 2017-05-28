@@ -1,0 +1,112 @@
+#content{
+	position: relative;
+	left:0;
+	width:100%;
+}
+#content .poster{
+	width:100%;
+	height:580px;
+	background-image: url("http://i1.piimg.com/584041/bce96b737626cf69.jpg");
+	background-repeat: no-repeat;
+	background-position:300px 0;
+}
+#content .poster img{
+	width:100%;
+	height:580px;
+}
+#content .contents{
+	position:absolute;
+	left:0;
+	top:0;
+	margin-left:134px;
+	margin-top:40px;
+	color:white;
+	font-family: "华文细黑";
+}
+#content .contents p {
+	width:580px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#eee;
+	text-indent: 2em;
+	line-height:1.8em;
+	border-bottom: solid #666 1px;
+	padding-bottom: 10px;
+}
+#content .contents h1{
+	float:left;
+	font-size: 40px;
+}
+#content .contents .edit{
+	float:left;
+	margin-top:20px;
+	margin-left:10px;
+	padding: 4px 10px;
+	background-color:#272f45;
+	border-radius: 2px;
+}
+#content .contents .edit:hover{
+	background-color:skyblue;
+}
+#content .contents .edit a{
+	text-decoration: none;
+	color:white;
+}
+#content .contents .edit a img{
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+#content .introduce{
+	width:1100px;
+	position:relative;
+	top:-140px;
+	margin: 0 auto;
+	padding:20px;
+	background-color: red;
+}
+#content .introduce .performer {
+	float:left;
+}
+#content .introduce .performer p{
+	font-family: "华文细黑";
+	font-size:18px;
+	margin-left: 10px;
+}
+
+#content .introduce .performer .performer_pho{
+	float:left;
+	width:168px;
+	display:inline-block;
+	vertical-align: center;
+	margin:10px;
+}
+#content .introduce .performer .performer_pho img{
+	float:left;
+	margin-right: 6px;
+/*	display: inline-block;*/
+}
+#content .introduce .performer .performer_pho a{
+/*	float:left;*/
+	width:80px;
+	margin-top:20px;
+	display: inline-block;
+}
+
+#content .introduce .performer .pho_sets {
+	float:right;
+}
+
+#content .introduce .performer .pho_sets .pho_sets_up{
+	font-family: "华文细黑";
+	font-size:18px;
+	margin-top:-25px;
+	margin-bottom: 10px;
+	margin-left: -10px;
+}
+
+#content .introduce .citiao{
+	width:100%;
+	height:50px;
+	background-color:#e8ebee;
+}

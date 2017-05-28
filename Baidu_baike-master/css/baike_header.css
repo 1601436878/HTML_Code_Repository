@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:100%;
+	font-family: "微软雅黑";
+}
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+
+/*头部样式*/
+header{
+
+}
+.top_bar{
+	text-align:right;
+}
+.top_bar ul li{
+	display:inline-block;
+	margin-right:16px;
+}
+.top_bar ul li #first_page{
+	border-left: solid #666 1px;
+	padding-left: 8px;
+}
+.top_bar a{
+	color:#666;
+	font-size: 14px;
+}
+
+
+.search{
+
+}
+ .search .spans{
+	float: left;
+	margin-left:100px;
+	margin-right:16px;
+}
+.search .spans img{
+	width: 140px;
+	height: 50px;
+}
+.search .search_bar{
+	position:relative;
+	top: -5px;
+	float: left;
+	width:660px;
+}
+.search .search_bar input{
+	display:inline-block;
+	font-size:16px;
+}
+.search .search_bar #search_input{
+	width:420px;
+	height:34px;
+}
+.search .search_bar ul{
+	margin-bottom:12px;
+}
+.search .search_bar li{
+	font-size:14px;
+	padding-right:8px;
+	display: inline-block;
+}
+.search .search_bar .button{
+	width:100px;
+	height:34px;
+	position:relative;
+	left: -9px;
+}
+header .navi{
+	height:45px;
+	background-color:#459df5;
+	margin-top:18px;
+}
+header .navi ul{
+	list-style:none;
+	float:left;
+	margin-left: 100px
+}
+header .navi ul li {
+	display:inline-block;
+	height:35px;
+	text-align: center;
+	padding-top:10px;
+	padding-left:0px;
+	padding-right: 0px;
+}
+header .navi ul li:hover{
+	background-color: #5895d5;
+}
+header .navi ul li  a{
+	color:white;
+	margin:0 35px;
+}
+header .navi .self_center{
+	float:right;
+	color:white;
+	margin-top:10px;
+	margin-right:140px;
+	padding-left: 40px;
+	border-left:solid 1px #777;
+}
+header .navi .self_center img{
+	float:left;
+	position:relative;
+	bottom：40px;
+}
+header .multi-mean{
+	background-color:#f5f5f5;
+	height:30px;
+	padding-top: 5px;
+	padding-left: 135px;
+	color:#666;
+	font-size:12px;
+}
+header .multi-mean a{
+	color:blue;
+}
+header .multi-mean .detail{
+	display: inline-block;
+	background-color:white;
+	border:solid #d4d4d4 1px;
+	border-radius: 2px;
+	padding:3px;
+}
+header .multi-mean .detail .detail_down{
+	background-image: url("http://p1.bpimg.com/584041/5e485a5847307228.png");
+	width:11px;
+	height:6px;
+	background-position: 0 0 ;
+	display:inline-block;
+}
+
+
+
+
